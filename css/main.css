@@ -1,0 +1,180 @@
+/** font info font-family: 'Montserrat', sans-serif; 
+font-family: 'Galada', cursive; **/
+
+* {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    overflow-wrap: none;
+    text-overflow: auto;
+}
+
+body {
+	width: 1200px;
+}
+
+
+/******************** HEADER *******************/
+
+header {
+	padding-left: 20px;
+	width: 1200px;
+}
+
+.main-title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 30px;
+    color: #77a466;
+    font-weight: bold;
+    text-transform: uppercase;
+	display: inline-block;
+}
+
+.black {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    height: auto;
+	width: 1180px;
+	padding: 0;
+    border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+/******************** MENU *******************/
+
+nav {
+    display: inline-block;
+	float: right;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+	margin-right: 20px;
+}
+
+nav ul li {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    color: #77a466;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+	margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+	display: inline-block;
+}
+
+
+nav ul li a:visited {
+	color: #77a466;
+}
+
+
+/******************** FULL WIDTH SECTION *******************/
+.about {
+	width: 1200px;
+}
+
+.intro-title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 18px;
+    color: #77a466;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin-left: 20px;
+}
+
+
+.primary-content {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #000000;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+/**************** 3 COLUMNS SECTION ******************/
+
+.columns {
+    border-top: 1px solid #DEDBDC;
+	border-bottom: 1px solid #DEDBDC;
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+}
+
+.title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.content {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.one-third {
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 25px;
+
+}
+
+#first, #second {
+    border-right: 1px solid #DEDBDC;
+}
+
+
+.specials {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    color: #77a466;
+}
+
+
+
+/**************** FOOTER ******************/
+
+footer {
+	width: 1200px;
+}
+
+
+.footer-title {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cursive {
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    color: #77a466;
+	text-transform: none;
+}
